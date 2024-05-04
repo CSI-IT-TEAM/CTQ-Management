@@ -1,0 +1,74 @@
+.b-card-2 {
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    border-radius: 15px;
+
+    .b-wrap {
+        padding: 20px;
+        background-color: #f6f7f8;
+        border-radius: 12px;
+        position: relative;
+        overflow: hidden;
+
+        @media screen and (max-width: 479px) {
+            padding: 20px 15px;
+        }
+    }
+
+    .b-card-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #fd625e;
+        border-radius: 99em 0 0 99em;
+        display: flex;
+        align-items: center;
+        padding: 0.625em 0.75em;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        font-family: Nunito, sans-serif;
+        letter-spacing: 0.5px;
+        text-shadow: 1px 1px 1px #666;
+
+        @media screen and (max-width: 479px) {
+            font-size: 17px;
+            padding: 10px 15px;
+        }
+    }
+
+    .b-card-rate {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+
+        .b-star {
+            font-size: 40px;
+            color: #ccc;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+        }
+
+        .b-remove {
+            color: #ccc;
+            font-size: 35px;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+        .star-active {
+            color: #FBB202;
+        }
+    }
+
+    .b-card-content {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
