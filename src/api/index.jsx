@@ -1,4 +1,4 @@
-const baseURL = 'http://172.30.10.120/';
+const baseURL = 'http://vjweb.dskorea.com/';
 
 ////////////////* POWER STATION PANEL *////////////////
 const downloadURL = baseURL + 'LMES/PKG_CTQ_MANAGEMENT.SELECT_COMBO';
